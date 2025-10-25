@@ -1,0 +1,7 @@
+flask
+flasgger
+requests
+beautifulsoup4
+pandas
+pydantic
+gunicorn>=20.1.0
