@@ -1,7 +1,7 @@
 from flask import jsonify, current_app
 import os
 import pandas as pd
-from src.routes.blueprint_controller import create_books_blueprint
+from src.services.blueprint_controller import create_books_blueprint
 
 health_bp = create_books_blueprint('health', '/api/v1/health')
 

@@ -1,7 +1,7 @@
 from flask import jsonify, current_app
 import pandas as pd
 from src.schemas.book_schema import BookSchema
-from src.routes.blueprint_controller import create_books_blueprint, load_books
+from src.services.blueprint_controller import create_books_blueprint, load_books
 
 stats_bp = create_books_blueprint('stats', '/api/v1/stats')
 
