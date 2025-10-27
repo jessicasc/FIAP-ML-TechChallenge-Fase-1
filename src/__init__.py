@@ -13,6 +13,8 @@ def create_app():
 
     app.config.from_object(Config)
 
+    app.config['JSON_AS_ASCII'] = False
+
     Swagger(app)
 
     app.register_blueprint(books_bp)
