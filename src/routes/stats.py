@@ -29,7 +29,7 @@ def stats_overview():
             rating_distribution:
               example: "5: 10, 4: 20, 3: 10, 2: 15, 1: 15"
     """
-    current_app.logger.info(f"Endpoint /stats/overview acessado - Retornando estatísticas gerais dos livros")
+    current_app.logger.info(f"Endpoint /stats/overview acessado - Retornando estatisticas gerais dos livros")
 
     overview = {
         "total_books": len(df),
@@ -61,7 +61,7 @@ def stats_categories():
               example: 10
     """
 
-    current_app.logger.info(f"Endpoint /stats/categories acessado - Retornando estatísticas gerais por categoria")
+    current_app.logger.info(f"Endpoint /stats/categories acessado - Retornando estatisticas gerais por categoria")
 
     grouped = df.groupby('category')
     overview_by_category = {}

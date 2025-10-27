@@ -89,8 +89,8 @@ def book_by_id(id):
         current_app.logger.info("Endpoint /books - Livro encontrado com sucesso")
         return jsonify(df.iloc[id].to_dict())
     else:
-        current_app.logger.error("Endpoint /books - Livro não encontrado")
-        return jsonify({'error': 'Livro não encontrado.'}), 404
+        current_app.logger.error("Endpoint /books - Livro nao encontrado")
+        return jsonify({'error': 'Livro nao encontrado.'}), 404
 
 @books_bp.route('/search', methods=['GET'])
 def book_by_title_and_category():
@@ -147,10 +147,10 @@ def book_by_title_and_category():
     category = request.args.get('category')
 
     if not title and not category:
-        current_app.logger.error(f"Endpoint /books/search - Erro ao fornecer parâmetros.")
-        return jsonify({'error': 'Você deve fornecer ao menos um parâmetro: title ou category'}), 400
+        current_app.logger.error(f"Endpoint /books/search - Erro ao fornecer parametros.")
+        return jsonify({'error': 'Voce deve fornecer ao menos um parametro: title ou category'}), 400
 
-    current_app.logger.info(f"Endpoint /books/search acessado - Buscando livros pelo título: '{title}' e/ou pela categoria: '{category}'")
+    current_app.logger.info(f"Endpoint /books/search acessado - Buscando livros pelo titulo: '{title}' e/ou pela categoria: '{category}'")
 
     if title and not category:
         book_found = df.loc[df['title'].str.lower() == title.lower()]
@@ -163,8 +163,8 @@ def book_by_title_and_category():
         current_app.logger.info(f"Endpoint /books/search - Livro encontrado com sucesso")
         return jsonify(book_found.to_dict(orient='records'))
     else:
-        current_app.logger.error(f"Endpoint /books/search - Livro não encontrado")
-        return jsonify({'error': 'Livro não encontrado'}), 404
+        current_app.logger.error(f"Endpoint /books/search - Livro nao encontrado")
+        return jsonify({'error': 'Livro nao encontrado'}), 404
 
 @books_bp.route('/top-rated', methods=['GET'])
 def top_rated_books():
@@ -208,8 +208,8 @@ def top_rated_books():
         current_app.logger.info('Endpoint /books/top-rated - Livros encontrados com sucesso')
         return jsonify(book_found.to_dict(orient='records'))
     else:
-        current_app.logger.error('Endpoint /books/top-rated - Livros não encontrado')
-        return jsonify({'error': 'Livro não encontrado'}), 404
+        current_app.logger.error('Endpoint /books/top-rated - Livros nao encontrado')
+        return jsonify({'error': 'Livro nao encontrado'}), 404
 
 @books_bp.route('/price-range', methods=['GET'])
 def book_by_price_range():
@@ -267,10 +267,10 @@ def book_by_price_range():
         min_price = float(request.args.get('min'))
         max_price = float(request.args.get('max'))
     except (TypeError, ValueError):
-        current_app.logger.error(f"Endpoint /books/price-range - Erro ao fornecer parâmetros.")
-        return jsonify({'error': 'Você deve fornecer os parâmetros necessários: min e max.'}), 400
+        current_app.logger.error(f"Endpoint /books/price-range - Erro ao fornecer parametros.")
+        return jsonify({'error': 'Voce deve fornecer os parametros necessarios: min e max.'}), 400
 
-    current_app.logger.info(f"Endpoint /books/price-range acessado - Buscando livros na faixa de preço de: {min_price} a {max_price}")
+    current_app.logger.info(f"Endpoint /books/price-range acessado - Buscando livros na faixa de preco de: {min_price} a {max_price}")
 
     book_found = df.loc[(df['price'] >= min_price) & (df['price'] <= max_price)]
 
@@ -278,5 +278,5 @@ def book_by_price_range():
         current_app.logger.info('Endpoint /books/price-range - Livro encontrado com sucesso')
         return jsonify(book_found.to_dict(orient='records'))
     else:
-        current_app.logger.error('Endpoint /books/price-range - Livro não encontrado')
-        return jsonify({'error': 'Livro não encontrado'}), 404
+        current_app.logger.error('Endpoint /books/price-range - Livro nao encontrado')
+        return jsonify({'error': 'Livro nao encontrado'}), 404

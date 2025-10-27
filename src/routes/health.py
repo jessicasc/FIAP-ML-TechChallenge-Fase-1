@@ -30,7 +30,7 @@ def health_check():
         description: "Erro no acesso aos dados."
     """
     
-    current_app.logger.info(f"Endpoint /health acessado - Avaliando a saúde da API")
+    current_app.logger.info(f"Endpoint /health acessado - Avaliando a saude da API")
 
     try:
         # Verifica se o arquivo de dados existe

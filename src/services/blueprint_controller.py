@@ -11,7 +11,7 @@ def create_books_blueprint(name, url_prefix):
     return bp
 
 def load_books():
-    logger.info("Criando conexão com a fonte de dados")
+    logger.info("Criando conexãoo com a fonte de dados")
 
     try:
         logger.info("validando dados de acordo com Schema pré definido")

@@ -40,7 +40,7 @@ def run_scraper():
               example: "Erro na execução do scraper"
     """
     
-    logger.info(f"Endpoint /scraping/trigger acessado - Iniciando execução do scraper em segundo plano")
+    logger.info(f"Endpoint /scraping/trigger acessado - Iniciando execucao do scraper em segundo plano")
 
     thread = threading.Thread(target=background_scraper)
     thread.start()

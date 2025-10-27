@@ -7,15 +7,11 @@ from src.routes.stats import stats_bp
 from src.routes.scrapping import scraper_bp
 from src.config.config import Config
 import logging
-import sys
-import io
 
 def create_app():
     app = Flask(__name__)
 
     app.config.from_object(Config)
-
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
     Swagger(app)
 
@@ -33,7 +29,7 @@ def create_app():
     app.logger.addHandler(handler)
     app.logger.setLevel(logging.INFO)
 
-    app.logger.info('Aplicação Flask iniciada')
+    app.logger.info('Aplicacao Flask iniciada')
 
     return app
 
