@@ -7,13 +7,15 @@ from src.routes.stats import stats_bp
 from src.routes.scrapping import scraper_bp
 from src.config.config import Config
 import logging
+import sys
+import io
 
 def create_app():
     app = Flask(__name__)
 
     app.config.from_object(Config)
 
-    app.config['JSON_AS_ASCII'] = False
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
     Swagger(app)
 
