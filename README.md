@@ -16,8 +16,9 @@ O objetivo desse projeto foi desenvolver uma RESTFul API com endpoints que forne
 ### Stats
 **/api/v1/stats/overview** - Retorna estatísticas gerais dos livros, como quantidade total de livros, preço médio e distribuição por rating.   
 **/api/v1/stats/categories**- Retorna estatísticas gerais por categoria, como quantidade total de livros e preço médio por categoria.  
-
-Os detalhes de cada endpoint podem ser acessados na documentação feita com Swagger e disponível no link: https://jessicasc-tc1-fiap-7e560f0b9791.herokuapp.com/apidocs/
+  
+Os detalhes de cada endpoint podem ser acessados na documentação feita com Swagger e disponível no link:  
+https://jessicasc-tc1-fiap-7e560f0b9791.herokuapp.com/apidocs/
 
 ## Aplicabilidade da API
 **Recomendações**  
@@ -33,11 +34,12 @@ Os detalhes de cada endpoint podem ser acessados na documentação feita com Swa
   - prever o sucesso de um livro utilizando um modelo de classificação baseado nas características do livro.  
 
 ### Plano de integração com modelos de Machine Learning  
-1. Coletar os dados via endpoints da API.  
-2. Limpeza e pré-processamentos dos dados.  
-3. Treinamento do modelo a partir dos dados obtidos.  
-4. Avaliação de desempenho.  
+1. Coletar os dados via endpoints da API;  
+2. Limpeza e pré-processamentos dos dados;   
+3. Treinamento do modelo;  
+4. Avaliação de desempenho;  
 5. A partir desse ponto é possível integrar o modelo à API, realizar novos treinamentos, vincular os resultados à dashboards e etc.
+
 
 
 
