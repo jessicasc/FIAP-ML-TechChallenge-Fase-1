@@ -22,10 +22,12 @@ Os detalhes de cada endpoint podem ser acessados na documentação feita com Swa
 ## Aplicabilidade da API
 **Recomendações**  
   - recomendar livros com título, categorias e preços semelhantes ao histórico de compra de um usuário;   
-  - recomendar livros mais bem avaliados.   
+  - recomendar livros mais bem avaliados.
+       
 **Monitoramento**  
   - acompanhar preço médio por categoria, o que ajudaria a ter uma base para precificação de lançamentos;  
-  - acompanhar estoque, o que permitiria identificar tendências nas vendas.  
+  - acompanhar estoque, o que permitiria identificar tendências nas vendas.
+
 **Predições**  
   - prever preços utilizando um modelo de regressão baseado nas características do livro;    
   - prever o sucesso de um livro utilizando um modelo de classificação baseado nas características do livro.  
@@ -36,6 +38,7 @@ Os detalhes de cada endpoint podem ser acessados na documentação feita com Swa
 3. Treinamento do modelo a partir dos dados obtidos.  
 4. Avaliação de desempenho.  
 5. A partir desse ponto é possível integrar o modelo à API, realizar novos treinamentos, vincular os resultados à dashboards e etc.
+
 
 
 
