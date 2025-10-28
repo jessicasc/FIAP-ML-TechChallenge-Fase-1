@@ -1,4 +1,4 @@
-#API de Livros - FIAP ML Tech Challenge 1
+# API de Livros - FIAP ML Tech Challenge 1
 
 O objetivo desse projeto foi desenvolver uma RESTFul API com endpoints que forneçam informações sobre dados de livros obtidos por meio de web scrapping no site https://books.toscrape.com.
 
@@ -18,5 +18,6 @@ O objetivo desse projeto foi desenvolver uma RESTFul API com endpoints que forne
 **/api/v1/stats/categories**- Retorna estatísticas gerais por categoria, como quantidade total de livros e preço médio por categoria.
 
 Os detalhes de cada endpoint podem ser acessados na documentação feita com Swagger e disponível no link: https://jessicasc-tc1-fiap-7e560f0b9791.herokuapp.com/apidocs/
+
 
 
