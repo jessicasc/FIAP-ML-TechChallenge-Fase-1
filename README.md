@@ -19,6 +19,8 @@ O objetivo desse projeto foi desenvolver uma RESTFul API com endpoints que forne
 
 Os detalhes de cada endpoint podem ser acessados na documentação feita com Swagger e disponível no link: https://jessicasc-tc1-fiap-7e560f0b9791.herokuapp.com/apidocs/
 
+## Aplicabilidade da API
+
 
 
 
