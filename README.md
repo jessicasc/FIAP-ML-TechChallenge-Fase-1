@@ -20,22 +20,23 @@ O objetivo desse projeto foi desenvolver uma RESTFul API com endpoints que forne
 Os detalhes de cada endpoint podem ser acessados na documentação feita com Swagger e disponível no link: https://jessicasc-tc1-fiap-7e560f0b9791.herokuapp.com/apidocs/
 
 ## Aplicabilidade da API
-**Recomendações**
-  recomendar livros com título, categorias e preços semelhantes ao histórico de compra de um usuário;  
-  recomendar livros mais bem avaliados.  
-**Monitoramento**
-  acompanhar preço médio por categoria, o que ajudaria a ter uma base para precificação de lançamentos;
-  acompanhar estoque, o que permitiria identificar tendências nas vendas.
-**Predições**
-  prever preços utilizando um modelo de regressão baseado nas características do livro;  
-  prever o sucesso de um livro utilizando um modelo de classificação baseado nas características do livro.
+**Recomendações**  
+  - recomendar livros com título, categorias e preços semelhantes ao histórico de compra de um usuário;   
+  - recomendar livros mais bem avaliados.   
+**Monitoramento**  
+  - acompanhar preço médio por categoria, o que ajudaria a ter uma base para precificação de lançamentos;  
+  - acompanhar estoque, o que permitiria identificar tendências nas vendas.  
+**Predições**  
+  - prever preços utilizando um modelo de regressão baseado nas características do livro;    
+  - prever o sucesso de um livro utilizando um modelo de classificação baseado nas características do livro.  
 
-### Plano de integração com modelos de Machine Learning
-Coletar os dados via endpoints da API.
-Limpeza e pré-processamentos dos dados.
-Treinamento do modelo a partir dos dados obtidos.
-Avaliação de desempenho.
-A partir desse ponto é possível integrar o modelo à API, realizar novos treinamentos, vincular os resultos à dashboards e etc.
+### Plano de integração com modelos de Machine Learning  
+1. Coletar os dados via endpoints da API.  
+2. Limpeza e pré-processamentos dos dados.  
+3. Treinamento do modelo a partir dos dados obtidos.  
+4. Avaliação de desempenho.  
+5. A partir desse ponto é possível integrar o modelo à API, realizar novos treinamentos, vincular os resultados à dashboards e etc.
+
 
 
 
