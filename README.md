@@ -27,18 +27,18 @@ https://jessicasc-tc1-fiap-7e560f0b9791.herokuapp.com/api/v1/categories
 
 ### Local
 1. Clonar este repositório Git
-   'git clone https://github.com/jessicasc/FIAP-ML-TechChallenge-Fase-1.git'
+   `git clone https://github.com/jessicasc/FIAP-ML-TechChallenge-Fase-1.git`
 2. Criar um ambiente virual
-   'python -m venv venv
-   source venv/bin/activate   # Linux/macOS
-   venv\Scripts\activate    # Windows '
+   `python -m venv venv  
+   source venv/bin/activate   # Linux/macOS  
+   venv\Scripts\activate    # Windows `  
 3. Instalar dependências
-   'pip install -r requirements.txt'
+   `pip install -r requirements.txt`
 4. Caso queira atualizar os dados, rodar o script que realiza o scrap no site
-   'python src/services/scraper.py'
+   `python src/services/scraper.py`
 5. Rodar a API
-    'python run.py'
-6. Consumir a API via navegador ou Postman 
+    `python run.py`
+6. Consumir a API via navegador ou Postman   
    http://localhost:5000/api/v1/books
 
 ## Arquitetura
@@ -68,6 +68,7 @@ Link do vídeo com demonstração do projeto:
 
 
 Meu perfil do Google Cloud:
+
 
 
 
