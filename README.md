@@ -34,7 +34,7 @@ https://jessicasc-tc1-fiap-7e560f0b9791.herokuapp.com/api/v1/categories
    `venv\Scripts\activate    # Windows`    
 3. Instalar dependências  
    `pip install -r requirements.txt`
-4. Caso queira atualizar os dados, rodar o script que realiza o web scrapping
+4. Caso queira atualizar os dados, rodar o script que realiza o web scrapping  
    `python src/services/scraper.py`
 5. Rodar a API  
     `python run.py`
@@ -68,6 +68,7 @@ Link do vídeo com demonstração do projeto:
 
 
 Meu perfil do Google Cloud:
+
 
 
 
