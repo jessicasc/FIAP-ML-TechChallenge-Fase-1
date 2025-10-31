@@ -20,6 +20,30 @@ O objetivo desse projeto foi desenvolver uma RESTFul API com endpoints que forne
 Os detalhes de cada endpoint podem ser acessados na documentação feita com Swagger e disponível no link:  
 https://jessicasc-tc1-fiap-7e560f0b9791.herokuapp.com/apidocs/
 
+## Instruções de uso
+### Via deploy (produção)
+A API foi hospedada usando Heroku, portanto ela pode ser acessada no link abaixo (alterando o final da url de acordo com o endpoint que se deseja acessar)    
+https://jessicasc-tc1-fiap-7e560f0b9791.herokuapp.com/api/v1/categories
+
+### Local
+1. Clonar este repositório Git
+   'git clone https://github.com/jessicasc/FIAP-ML-TechChallenge-Fase-1.git'
+2. Criar um ambiente virual
+   'python -m venv venv
+   source venv/bin/activate   # Linux/macOS
+   venv\Scripts\activate    # Windows '
+3. Instalar dependências
+   'pip install -r requirements.txt'
+4. Caso queira atualizar os dados, rodar o script que realiza o scrap no site
+   'python src/services/scraper.py'
+5. Rodar a API
+    'python run.py'
+6. Consumir a API via navegador ou Postman 
+   http://localhost:5000/api/v1/books
+
+## Arquitetura
+
+
 ## Aplicabilidade da API
 **Recomendações**  
   - recomendar livros com título, categorias e preços semelhantes ao histórico de compra de um usuário;   
@@ -35,10 +59,16 @@ https://jessicasc-tc1-fiap-7e560f0b9791.herokuapp.com/apidocs/
 
 ### Plano de integração com modelos de Machine Learning  
 1. Coletar os dados via endpoints da API;  
-2. Limpeza e pré-processamentos dos dados;   
+2. Pré-processamentos dos dados;   
 3. Treinamento do modelo;  
 4. Avaliação de desempenho;  
 5. A partir desse ponto é possível integrar o modelo à API, realizar novos treinamentos, vincular os resultados à dashboards e etc.
+
+Link do vídeo com demonstração do projeto:
+
+
+Meu perfil do Google Cloud:
+
 
 
 
