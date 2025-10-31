@@ -22,7 +22,7 @@ https://jessicasc-tc1-fiap-7e560f0b9791.herokuapp.com/apidocs/
 
 ## Instruções de uso
 ### Via deploy (produção)
-A API foi hospedada usando Heroku, portanto ela pode ser acessada no link abaixo (alterando o final da url de acordo com o endpoint que se deseja acessar)    
+A API foi hospedada usando Heroku, portanto ela pode ser acessada no link abaixo (alterando o final da url de acordo com o endpoint que deseja acessar)    
 https://jessicasc-tc1-fiap-7e560f0b9791.herokuapp.com/api/v1/categories
 
 ### Local
@@ -69,6 +69,7 @@ Link do vídeo com demonstração do projeto:
 
 Meu perfil do Google Cloud:  
 https://www.skills.google/public_profiles/4feaea22-bfe2-42ea-849c-c56f0a02af8d
+
 
 
 
