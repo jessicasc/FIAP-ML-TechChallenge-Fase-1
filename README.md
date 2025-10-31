@@ -67,7 +67,8 @@ https://jessicasc-tc1-fiap-7e560f0b9791.herokuapp.com/api/v1/categories
 Link do vídeo com demonstração do projeto:
 
 
-Meu perfil do Google Cloud:
+Meu perfil do Google Cloud:  
+https://www.skills.google/public_profiles/4feaea22-bfe2-42ea-849c-c56f0a02af8d
 
 
 
