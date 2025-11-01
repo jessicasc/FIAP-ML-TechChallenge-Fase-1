@@ -42,7 +42,7 @@ https://jessicasc-tc1-fiap-7e560f0b9791.herokuapp.com/api/v1/categories
    http://localhost:5000/api/v1/books
 
 ## Arquitetura
-
+![Arquitetura do Projeto](DiagramaDaArquitetura.png)
 
 ## Aplicabilidade da API
 **Recomendações**  
@@ -71,6 +71,7 @@ Meu perfil do Google Cloud:
 https://www.skills.google/public_profiles/4feaea22-bfe2-42ea-849c-c56f0a02af8d
 
 `Jéssica Soares - RM 367045`
+
 
 
 
