@@ -65,12 +65,13 @@ https://jessicasc-tc1-fiap-7e560f0b9791.herokuapp.com/api/v1/categories
 5. A partir desse ponto é possível integrar o modelo à API, realizar novos treinamentos, vincular os resultados à dashboards e etc.
 
 Link do vídeo com demonstração do projeto:  
-https://www.canva.com/design/DAG3fSk-JyY/1ZVvjTHLoFhyHdWp_KGfFA/edit?utm_content=DAG3fSk-JyY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton  
+https://drive.google.com/file/d/1-VK-6xkBrppmVsV1f4Yh2fsb8zHvrs5L/view?usp=sharing    
 
 Meu perfil do Google Cloud:  
 https://www.skills.google/public_profiles/4feaea22-bfe2-42ea-849c-c56f0a02af8d
 
 `Jéssica Soares - RM 367045`
+
 
 
 
